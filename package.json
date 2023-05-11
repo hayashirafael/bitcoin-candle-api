@@ -1,10 +1,11 @@
 {
-  "name": "bitcpom-candle-api",
+  "name": "bitcoin-candle-api",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon --exec ts-node src/server.ts"
+    "dev": "nodemon --exec ts-node src/server.ts",
+    "build": "tsc"
   },
   "dependencies": {
     "amqplib": "^0.10.3",
